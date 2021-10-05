@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Navbar from '../components/Navabar.vue'
+import ForSpecificUser from '../components/ForSpecificUser.vue'
 import GetAllUser from '../components/GetAllUser.vue'
 Vue.use(VueRouter)
 const routes = [
@@ -9,9 +9,9 @@ const routes = [
     redirect: '/getalluser'
   },
   {
-    path: '/navbar',
-    name: 'Navbar',
-    component: Navbar
+    path: '/specificUser',
+    name: 'specificUser',
+    component: ForSpecificUser
   },
   {
     path: '/getalluser',

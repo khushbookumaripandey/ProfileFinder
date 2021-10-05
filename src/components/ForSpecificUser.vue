@@ -84,7 +84,7 @@ export default {
   flex-wrap: wrap;
   width: 100%;
   height: 60px;
-  background-color:#0C164F;
+  background-color:#121b4e;
   z-index: 1;
   top: 0;
   margin-top: 0;

@@ -125,7 +125,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #0c164f;
+  background-color: #141d55;
   z-index: 1;
   top: 0;
   margin-top: 0;
